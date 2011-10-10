@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Content density prototype</title>
-        <link rel="stylesheet" href="proto.css">
+        <link rel="stylesheet" href="assets/css/proto.css">
     </head>
     <body>
         <div id="toolbar">
@@ -101,8 +101,8 @@
             © 2011 <a href="http://timhuegdon.com/" rel="me">Tim Huegdon</a>
         </div>
         
-        <script src="respond.min.js"></script>
-        <script src="simpleyui-min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <script src="assets/js/simpleyui-min.js"></script>
         <script>
             var handleClick = function(e) {
                 document.documentElement.className = document.documentElement.className.replace(/ density-.*?(\s|$)/g,"") + " " + this.get("id");
