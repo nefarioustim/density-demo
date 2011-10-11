@@ -5,6 +5,13 @@ This prototype varies the density of content within your page, based either on t
 
 Content density variance is achieved through dynamic alteration of margins, padding, font sizes, line height, widths, and heights.
 
+Demo
+----
+
+You can find a running example of this code here:
+
+<http://timhuegdon.com/test-cases/density/>
+
 License
 -------
 
